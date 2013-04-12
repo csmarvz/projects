@@ -65,7 +65,6 @@ public class StartGame extends Activity {
 		board.setBackgroundColor(Color.BLACK);
 		setContentView(board);
 		waitTouchToStartGame();
-
 	}
 	
 	private void waitTouchToStartGame(){
