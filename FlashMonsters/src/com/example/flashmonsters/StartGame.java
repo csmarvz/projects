@@ -67,6 +67,7 @@ public class StartGame extends Activity {
 		waitTouchToStartGame();
 	}
 	
+	//setup the starting screen
 	private void waitTouchToStartGame(){
 		TextView start = new TextView(this);
 		start.setTextSize(TypedValue.COMPLEX_UNIT_SP, 30);
